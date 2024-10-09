@@ -255,24 +255,39 @@ input {
     margin: auto;
     max-width: 1440px;
   }
+  h2 {
+    font-size: 2.5rem;
+  }
   header {
     margin-bottom: 6rem;
+  }
+  nav {
+    padding: 5rem 0;
   }
   nav img {
     height: 35px;
   }
   .hero-info h1 {
-    font-size: 2.5rem;
+    font-size: 3rem;
     max-width: 100%;
   }
   .hero-info #hero-text {
     max-width: 55ch;
     margin: 2rem auto;
   }
+  .btn {
+    padding: 1.3rem 4.5rem;
+  }
   .hero-stats {
     width: 100%;
     display: flex;
     justify-content: space-around;
+  }
+  .stat-num {
+    font-size: 6rem;
+  }
+  .stat-text {
+    font-size: 1.1rem;
   }
   .stat-text br {
     display: none;
@@ -300,12 +315,13 @@ input {
     margin-bottom: 10rem;
   }
   .cta-section h2 {
-    font-size: 1.7rem;
+    font-size: 2.1rem;
     margin: 0 auto 2rem;
   }
   footer .container {
     align-items: flex-start;
     justify-content: space-between;
+    gap: 2rem;
   }
   footer article {
     max-width: 450px;
@@ -327,5 +343,9 @@ input {
   }
   .btn-subscribe {
     margin-top: 0;
+  }
+  .social-links {
+    margin-top: 5rem;
+    margin-bottom: 3rem;
   }
 }

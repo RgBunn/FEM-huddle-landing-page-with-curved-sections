@@ -260,10 +260,10 @@ input {
     font-size: 2.5rem;
   }
   p {
-    font-size: 1.1rem;
+    font-size: 1.2rem;
   }
   header {
-    margin-bottom: 8rem;
+    margin-bottom: 9rem;
   }
   nav {
     padding: 5rem 0;
@@ -285,7 +285,7 @@ input {
     margin: 3rem auto;
   }
   .btn {
-    padding: 1.3rem 4.5rem;
+    padding: 1.4rem 5rem;
     font-size: 1rem;
   }
   .hero-stats {
@@ -317,16 +317,23 @@ input {
   .flex-reverse {
     flex-direction: row-reverse;
   }
+  .illustration img {
+    max-width: 80%;
+    margin: 5rem auto;
+  }
   .waved__section.users .container {
     margin-bottom: 0;
   }
   .cta-section {
-    margin-top: 5rem;
+    margin-top: 8rem;
     margin-bottom: 10rem;
   }
   .cta-section h2 {
-    font-size: 2.1rem;
-    margin: 0 auto 2rem;
+    font-size: 2.5rem;
+    margin: 0 auto 4rem;
+  }
+  footer p {
+    font-size: 1.1rem;
   }
   footer .container {
     align-items: flex-start;
